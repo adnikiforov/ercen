@@ -6,6 +6,8 @@
 % return a list of WatchIDs that should be cancelled in the stop
 % function below (stop is executed if the script is ever reloaded).
 init() ->
+  ssl:start(),
+  application:start(ibrowse),
     {ok, []}.
 
 stop(ListOfWatchIDs) ->

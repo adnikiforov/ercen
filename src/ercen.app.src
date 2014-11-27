@@ -1,5 +1,5 @@
 {application, ercen, [
-        {description, "My Awesome Web Framework"},
+        {description, "Erlang Package Central webapp"},
         {vsn, "0.0.1"},
         {modules, []},
         {registered, []},
